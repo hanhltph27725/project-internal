@@ -30,7 +30,7 @@ jobs:
       - name: Upload static content
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'src'  # Đây là thư mục bạn chứa index.html
+          path: './src'
 
       - name: Deploy to GitHub Pages
         id: deployment
